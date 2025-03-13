@@ -55,9 +55,10 @@ img {
 .pade-header .container {
   display: flex;
   align-items: center;
+  width: 1158px;
+  width: 1158px;
 }
 .pade-header {
-  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -123,8 +124,7 @@ img {
 
 /* #endregion */
 .hero-container {
-  padding-top: 208px;
-  padding-bottom: 188px;
+  padding: 188px;
 }
 .hero {
   background-color: #2e2f42;
