@@ -69,21 +69,21 @@ img {
   color: #4d5ae5;
   margin-top: 24px;
   margin-bottom: 24px;
+  margin-right: 76px;
 }
 .logo .studio {
   color: #2e2f42;
 }
 .header-nav {
   display: flex;
-  gap: 76px;
 }
 
 .nav-link {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding: 24px 0;
+  align-items: center;
 }
 
 .nav-link .link {
