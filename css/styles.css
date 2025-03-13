@@ -24,13 +24,40 @@ ol {
   margin-bottom: 0;
   list-style-type: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
-  width: 1158px;
-  padding-left: 16px;
-  padding-right: 16px;
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* #region header */
+.pade-header .container {
+  display: flex;
+  align-items: center;
+}
+.pade-header {
+  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -40,11 +67,29 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   color: #4d5ae5;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .logo .studio {
   color: #2e2f42;
 }
+.header-nav {
+  display: flex;
+  gap: 76px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .nav-link .link {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,23 +100,41 @@ ol {
 .nav-link .link:focus {
   color: #404bbf;
 }
-.address-link {
-  font-style: normal;
+.address-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-.address-link .link {
+
+.address-list .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+  display: flex;
+  align-items: center;
 }
-.address-link .link:hover,
-.address-link .link:focus {
+.address-list .link:hover,
+.address-list .link:focus {
   color: #404bbf;
 }
-.section-one {
+
+/* #endregion */
+.hero-container {
+  padding-top: 208px;
+  padding-bottom: 188px;
+}
+.hero {
   background-color: #2e2f42;
 }
-.section-one .title {
+.hero .title {
+  width: 496px;
+  margin-bottom: (calc(104 - 56));
+  margin-left: 316px;
+  margin-right: 316px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -87,6 +150,10 @@ ol {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
 }
 .butt:hover,
 .butt:focus {
