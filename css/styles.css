@@ -80,6 +80,7 @@ img {
 .nav-link .link {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 
   font-weight: 500;
   font-size: 16px;
@@ -150,7 +151,7 @@ img {
   background-color: #404bbf;
 }
 
-.wrap {
+.rwap {
   display: flex;
   gap: 24px;
 }
