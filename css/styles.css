@@ -167,7 +167,7 @@ img {
   display: flex;
   gap: 24px;
 }
-item-wrap {
+.item-wrap {
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
