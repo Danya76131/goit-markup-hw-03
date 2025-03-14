@@ -146,8 +146,8 @@ img {
 }
 .hero .title {
   max-width: 496px;
-  margin-bottom: 48px;
   margin: 0 auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -156,6 +156,7 @@ img {
 }
 .butt {
   display: block;
+  margin: 0 auto;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
